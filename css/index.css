@@ -1,0 +1,14 @@
+body {
+    background-color: red; 
+    font-family: sans-serif;
+};
+
+h1{
+    font-size: 2rem;
+    font-weight: 200;
+    color: blueviolet;
+};
+
+p{
+    color: brown;
+}
