@@ -1,14 +1,76 @@
-body {
-    background-color: red; 
-    font-family: sans-serif;
+ body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
 };
+
 
 h1{
     font-size: 2rem;
     font-weight: 200;
-    color: blueviolet;
-};
-
-p{
-    color: brown;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+  
+  li {
+    float: left;
+  }
+
+#Experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.Experience-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Connect section */
+#Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optional: Sticky header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2; /* Optional background color */
+    padding: 10px; /* Optional padding */
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px; /* Adjust spacing between items */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333; /* Optional link color */
+  }
+  nav a:hover {
+    color: #ff6600; /* Change color on hover */
+  }
