@@ -1,14 +1,115 @@
 body {
-    background-color: red; 
-    font-family: sans-serif;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
 };
 
 h1{
     font-size: 2rem;
     font-weight: 200;
-    color: blueviolet;
-};
-
-p{
-    color: brown;
 }
+li {
+    float: left;
+  }
+ .navbox ul {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    list-style: none;
+    padding-bottom: 0;
+ }
+
+#Experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.Experience-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Connect section */
+.Connect ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    list-style: none;
+}
+
+/* Optional: Sticky header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.navbox ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px; /* Adjust spacing between items */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333; /* Optional link color */
+  }
+  nav a:hover {
+    color: #ff6600; /* Change color on hover */
+  }
+  @media (max-width: 900px) {
+    body {
+      background: green;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    body {
+      background: brown;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    body {
+      background: pink;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      background: blue;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    body {
+      background: orange;
+    }
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 30em));
+    gap: 10px;
+  }
+
+  .grid-at {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    border-radius: 0.8em;
+    border-radius: 0.5em;
+  }
+
+  .oth{
+    display: flex;
+    flex-direction: column;
+  }
+
