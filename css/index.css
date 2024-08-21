@@ -1,76 +1,59 @@
- body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #cccccc;
-};
-
-
-h1{
-    font-size: 2rem;
-    font-weight: 200;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1,
+h2,
+h3 {
+  color: #0056b3;
+}
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.header h1 {
+  margin: 0;
+}
+.contact-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-info p {
+  margin: 5px 0;
+}
+.section {
+  margin-bottom: 30px;
+}
+.section h2 {
+  border-bottom: 2px solid #0056b3;
+  padding-bottom: 5px;
+}
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+.section ul li {
+  margin: 10px 0;
+}
+.skills li,
+.education li {
+  margin: 5px 0;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: whitesmoke;
-  }
-  
-  li {
-    float: left;
-  }
-
-#Experience {
-    display: flex;
-    flex-direction: column;
+.highlight {
+  background-color: yellow;
 }
 
-.Experience-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-/* Connect section */
-#Contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Optional: Sticky header */
-header {
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f2f2f2; /* Optional background color */
-    padding: 10px; /* Optional padding */
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 0 10px; /* Adjust spacing between items */
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #333; /* Optional link color */
-  }
-  nav a:hover {
-    color: #ff6600; /* Change color on hover */
-  }
+/* .some-random-class {
+  background-color: pink;
+} */
